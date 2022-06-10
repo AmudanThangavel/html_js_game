@@ -11,8 +11,13 @@
 
 <body>
 
-    <img id="twoknife" src="images/Two knife.png">
-    <img id="tknife" src="images/Up down knife.png">
+    <section id="overlay">
+        <div id="card">
+            <p>You Scored: <span id="card-score">0</span></p>
+            <button onclick="restartGame(this)">Play Again?</button>
+        </div>
+    </section>
+
     <img id="red" src="images/red.png" width="75px" height="75px">
     <img id="knife" src="images/knife.png" width="110px" height="60px">
     <canvas id="bcanvas" height="500" width="500" alt=""></canvas>
